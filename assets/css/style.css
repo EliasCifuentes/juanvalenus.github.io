@@ -1,3 +1,51 @@
 h1{
     color: red;
 }
+
+body {
+            background-color: #f5f5f5;
+        }
+        .navbar {
+            background-color: #004080; /* Azul oscuro */
+        }
+        .navbar-brand, .nav-link {
+            color: #ffffff !important; 
+        }
+        .navbar-nav .nav-link:hover {
+            color: #ff8000 !important; 
+        }
+        .section-title {
+            color: #004080; 
+        }
+        .btn-primary {
+            background-color: #ff8000; 
+            border-color: #ff8000;
+        }
+        .btn-primary:hover {
+            background-color: #cc6600; 
+            border-color: #cc6600;
+        }
+        .card-title {
+            color: #004080; 
+        }
+        .card {
+            border: 1px solid #004080; 
+        }
+        .card-body {
+            background-color: #e6f0ff; 
+        }
+        footer {
+            background-color: #004080; 
+            color: #ffffff; 
+        }
+        footer a {
+            color: #ff8000 !important; 
+        }
+        footer a:hover {
+            color: #ffffff !important; 
+        }
+        .portfolio-img {
+            width: 100%; /* Asegura que las imágenes ocupen el 100% del contenedor */
+            height: 200px; /* Altura fija */
+            object-fit: cover; /* Mantiene el aspecto al recortar imágenes */
+        }
